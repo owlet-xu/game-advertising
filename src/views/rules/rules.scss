@@ -1,0 +1,42 @@
+.rules {
+    height: 680px;
+    padding-top: 25px;
+    .rules-box {
+        .rules-title {
+            text-align: center;
+            width: 215px;
+            height: 44px;
+            line-height: 44px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 28px;
+            margin: 40px 0 28px;
+            background: url(../../assets/imgs/tt.png) no-repeat center center;
+        }
+        .rules-title2{
+            width: 266px;
+            background: url(../../assets/imgs/aa.png) no-repeat center center;
+        }
+        .rules-text {
+            color: #fff;
+            padding-left: 28px;
+            padding-right: 40px;
+            line-height: 28px;
+            font-size: 14px;
+            span {
+                display: inline-block;
+                width: 17px;
+                height: 17px;
+                line-height: 17px;
+                text-align: center;
+                margin-right: 8px;
+                background: url(../../assets/imgs/dd.png) no-repeat center center;
+            }
+            i {
+                font-style: normal;
+                color: #fff770;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.banner {
+    position: relative;
+    width: 100%;
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+    .nav {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        background: url(../../assets/imgs/btn-bg.png) no-repeat center center;
+        bottom: 0;
+        left: 0;
+        height: 88px;
+        line-height: 88px;
+        width: 100%;
+        li {
+            width: 200px;
+            height: 88px;
+            line-height: 88px;
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            &:hover {
+                background: url(../../assets/imgs/nav-bg.png) no-repeat center center;
+                font-weight: bold;
+            }
+        }
+    }
+}

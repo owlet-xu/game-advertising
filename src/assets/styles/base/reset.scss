@@ -1,0 +1,81 @@
+body {
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+  font-family: "Segoe UI", sans-serif !important;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+dl,
+dt,
+dd,
+ul,
+span,
+img {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@keyframes peopleAnimation {
+  0% {
+    margin-left: -5px;
+    margin-top:-5px;
+  }
+  50% {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  100%{
+    margin-left: -5px;
+    margin-top: 0;
+  }
+}

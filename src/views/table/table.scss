@@ -1,0 +1,12 @@
+.table {
+    height: 100%;
+    width: 100%;
+    .table-box {
+        height: calc(100% - 40px);
+    }
+    .video-dialog {
+        video {
+            width: 100%;
+        }
+    }
+}
